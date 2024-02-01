@@ -1,0 +1,67 @@
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alterado para flex-start */
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px; /* Margem superior ajustada */
+  border: 2px solid #333; /* Adicionado uma borda */
+  border-radius: 10px; /* Borda arredondada */
+  padding: 20px; /* Espaçamento interno */
+  background-color: #333; /* Cor de fundo do box */
+}
+
+#gameArea {
+  margin-top: 20px;
+}
+
+h2, h3 {
+  color: #ff9800;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ff9800;
+  border-radius: 5px;
+  background-color: #444;
+  color: #ffffff;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.info {
+  text-align: center;
+  flex: 1;
+}
+
+.info p {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9800;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ff6600;
+}
